@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">SBDelivery</string>
+    <string name="et_hint_e_mail">E-mail</string>
+    <string name="et_hint_password">Пароль</string>
+    <string name="et_hint_firstName">Имя</string>
+    <string name="et_hint_secondName">Фамилия</string>
+    <string name="btn_text_enter">Войти</string>
+    <string name="btn_text_register">Регистрация</string>
 </resources>
