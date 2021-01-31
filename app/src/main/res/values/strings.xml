@@ -6,4 +6,18 @@
     <string name="et_hint_secondName">Фамилия</string>
     <string name="btn_text_enter">Войти</string>
     <string name="btn_text_register">Регистрация</string>
+
+   <!-- navigation drawer >-->
+    <string name="home_page">Главная</string>
+    <string name="menu_page">Меню</string>
+    <string name="favorite_page">Избранное</string>
+    <string name="basket_page">Корзина</string>
+    <string name="profile_page">Профиль</string>
+    <string name="orders_page">Заказы</string>
+    <string name="notifications_page">Уведомления</string>
+
+    <string name="navigation_drawer_open">Открыть панель навигации</string>
+    <string name="navigation_drawer_close">Закрыть панель навигации</string>
+    <string name="home_page_title">Главная</string>
+
 </resources>

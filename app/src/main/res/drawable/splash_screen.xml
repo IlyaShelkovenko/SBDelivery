@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:drawable="@drawable/ic_background"/>
-    <item android:drawable="@drawable/ic_group_604" android:gravity="center"/>
+    <item android:drawable="@drawable/sb_delivery_logo" android:gravity="center"/>
 </layer-list>
