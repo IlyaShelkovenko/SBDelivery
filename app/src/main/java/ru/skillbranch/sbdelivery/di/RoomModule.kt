@@ -7,8 +7,8 @@ import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.components.SingletonComponent
-import ru.skillbranch.sbdelivery.database.SbDeliveryDao
-import ru.skillbranch.sbdelivery.database.SbDeliveryDatabase
+import ru.skillbranch.sbdelivery.data.local.database.dao.SbDeliveryDao
+import ru.skillbranch.sbdelivery.data.local.database.SbDeliveryDatabase
 import javax.inject.Singleton
 
 

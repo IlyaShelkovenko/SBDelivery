@@ -9,7 +9,7 @@
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:background">@color/colorPrimaryDark</item>
         <item name="colorOnSurface">@color/white</item>
-
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
     </style>
     
     <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
@@ -60,6 +60,11 @@
 
     <style name="MyActionBar" parent="ThemeOverlay.AppCompat.ActionBar">
         <item name="android:textColorPrimary">#FFFFFF</item>
+    </style>
+
+    <style name="DrawerArrowStyle" parent="@style/Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@color/colorAccent</item>
     </style>
 
 

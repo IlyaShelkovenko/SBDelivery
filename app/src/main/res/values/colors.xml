@@ -11,4 +11,6 @@
     <color name="white_transparent">#33FFFFFF</color>
     <color name="transparent">#00000000</color>
     <color name="ripple_color">#33AAAAAA</color>
+    <color name="light_white">#B3BFCF</color>
+    <color name="yellow">#FEC90D</color>
 </resources>

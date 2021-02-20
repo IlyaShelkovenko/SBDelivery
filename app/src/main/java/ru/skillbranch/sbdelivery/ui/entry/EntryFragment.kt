@@ -1,7 +1,7 @@
 /**
  * Created by Ilia Shelkovenko on 21.01.2021.
  */
-package ru.skillbranch.sbdelivery.ui
+package ru.skillbranch.sbdelivery.ui.entry
 
 import androidx.fragment.app.Fragment
 import ru.skillbranch.sbdelivery.R

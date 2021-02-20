@@ -2,7 +2,7 @@
  * Created by Ilia Shelkovenko on 31.01.2021.
  */
 
-package ru.skillbranch.sbdelivery.ui
+package ru.skillbranch.sbdelivery.ui.home
 
 import android.os.Bundle
 import android.view.View

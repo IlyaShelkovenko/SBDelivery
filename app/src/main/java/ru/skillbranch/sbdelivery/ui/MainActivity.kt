@@ -1,6 +1,7 @@
 package ru.skillbranch.sbdelivery.ui
 
 import android.os.Bundle
+import android.util.Log
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.GravityCompat
@@ -13,7 +14,12 @@ import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import dagger.hilt.android.AndroidEntryPoint
+import retrofit2.Call
+import retrofit2.Callback
+import retrofit2.Response
 import ru.skillbranch.sbdelivery.R
+import ru.skillbranch.sbdelivery.data.remote.requests.RegisterRequest
+import ru.skillbranch.sbdelivery.data.remote.responses.RegisterResponse
 import ru.skillbranch.sbdelivery.databinding.ActivityMainBinding
 import ru.skillbranch.sbdelivery.network.SbDeliveryApi
 import javax.inject.Inject
@@ -56,8 +62,10 @@ class MainActivity : AppCompatActivity() {
             .beginTransaction()
             .replace(R.id.nav_host_fragment, EntryFragment()).commit()*/
 
-        /*deliveryApi.register(RegisterRequest("gromoboy115@yandex.ru",
-            "Иван", "Сидоров","SomePassword123")).enqueue(object: Callback<RegisterResponse>{
+        deliveryApi.register(
+            RegisterRequest("random115@mail.ru",
+            "Иван", "Сидоров","SomePassword123")
+        ).enqueue(object: Callback<RegisterResponse> {
             override fun onResponse(call: Call<RegisterResponse>, response: Response<RegisterResponse>) {
                 if(!response.isSuccessful){
                     Log.d("MainActivity","code : ${response.code()}")
@@ -68,7 +76,7 @@ class MainActivity : AppCompatActivity() {
             override fun onFailure(call: Call<RegisterResponse>, t: Throwable) {
                 Log.d("MainActivity","${t.message}")
             }
-        })*/
+        })
     }
 
     override fun onSupportNavigateUp(): Boolean {

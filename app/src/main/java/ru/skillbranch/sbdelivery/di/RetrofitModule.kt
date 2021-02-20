@@ -18,7 +18,8 @@ import ru.skillbranch.sbdelivery.network.SbDeliveryApi
 import javax.inject.Singleton
 
 
-const val BASE_URL = "https://polls.apiblueprint.org/"
+//const val BASE_URL = "https://polls.apiblueprint.org/"
+const val BASE_URL = "https://sandbox.skill-branch.ru/"
 
 @Module
 @InstallIn(SingletonComponent::class)
